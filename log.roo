@@ -1,0 +1,13 @@
+// Spring Roo 1.1.2.RELEASE [rev fbc33bb] log opened at 2011-03-14 04:33:29
+project --topLevelPackage com.puglieseweb --projectName puglieseweb --java 6
+// Spring Roo 1.1.2.RELEASE [rev fbc33bb] log closed at 2011-03-14 04:33:32
+// Spring Roo 1.1.2.RELEASE [rev fbc33bb] log opened at 2011-03-14 04:33:40
+persistence setup --provider DATANUCLEUS --database GOOGLE_APP_ENGINE 
+entity --class ~.server.domain.Feedback --testAutomatically 
+field string --fieldName feedback
+field string --fieldName name --notNull --sizeMin 3 --sizeMax 30
+field string --fieldName email
+gwt setup
+logging setup --level INFO 
+// script --file samples/pweb.roo
+// Spring Roo 1.1.2.RELEASE [rev fbc33bb] log closed at 2011-03-14 07:21:21

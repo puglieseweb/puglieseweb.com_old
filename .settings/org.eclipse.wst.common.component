@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="puglieseweb.com">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <property name="java-output-path" value="/puglieseweb/target/puglieseweb-0.1.0.BUILD-SNAPSHOT/WEB-INF/classes"/>
+        <property name="context-root" value="puglieseweb.com"/>
+    </wb-module>
+</project-modules>
