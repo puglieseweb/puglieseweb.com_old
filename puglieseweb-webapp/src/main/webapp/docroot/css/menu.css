@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+#colonna-2 {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	line-height: 20px
+}
+
+#colonna-2 h1{
+margin-bottom: 30px;
+}
+
+#colonna-2 h2{
+font-size: 140%;
+font-family: Arial,Helvetica,sans-serif;
+}
+
+#colonna-2 a{
+color:#286EA0;
+}

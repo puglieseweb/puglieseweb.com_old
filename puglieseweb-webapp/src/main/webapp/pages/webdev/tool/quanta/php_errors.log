@@ -1,0 +1,31 @@
+[28-Oct-2011 12:14:08] PHP Warning:  session_start(): open(/var/lib/php/session/sess_utmfb4mk0oitd16v7akl002ig5, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[28-Oct-2011 12:23:24] PHP Warning:  session_start(): open(/var/lib/php/session/sess_utmfb4mk0oitd16v7akl002ig5, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[28-Oct-2011 12:36:45] PHP Warning:  session_start(): open(/var/lib/php/session/sess_utmfb4mk0oitd16v7akl002ig5, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[28-Oct-2011 12:37:43] PHP Warning:  session_start(): open(/var/lib/php/session/sess_utmfb4mk0oitd16v7akl002ig5, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[28-Oct-2011 12:45:15] PHP Warning:  session_start(): open(/var/lib/php/session/sess_utmfb4mk0oitd16v7akl002ig5, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[28-Oct-2011 13:22:17] PHP Warning:  session_start(): open(/var/lib/php/session/sess_qmtt5ilt8lagh167uov02ha730, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[06-Nov-2011 19:06:25] PHP Warning:  session_start(): open(/var/lib/php/session/sess_3d25ic7li88c7at6ta1b46l751, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[06-Nov-2011 19:06:25] PHP Stack trace:
+[06-Nov-2011 19:06:25] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/webdev/tool/quanta/index.php:0
+[06-Nov-2011 19:06:25] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/webdev/tool/quanta/index.php:1
+[06-Nov-2011 19:06:25] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
+[06-Nov-2011 19:06:25] PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php/session) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[06-Nov-2011 19:06:25] PHP Stack trace:
+[06-Nov-2011 19:06:25] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/webdev/tool/quanta/index.php:0
+[06-Nov-2011 19:06:25] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/webdev/tool/quanta/index.php:1
+[06-Nov-2011 19:06:25] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
+[06-Nov-2011 21:45:06] PHP Warning:  session_start(): open(/var/lib/php/session/sess_3d25ic7li88c7at6ta1b46l751, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[06-Nov-2011 21:45:06] PHP Stack trace:
+[06-Nov-2011 21:45:06] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/webdev/tool/quanta/index.php:0
+[06-Nov-2011 21:45:06] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/webdev/tool/quanta/index.php:1
+[06-Nov-2011 21:45:06] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
+[06-Nov-2011 23:58:07] PHP Warning:  session_start(): open(/var/lib/php/session/sess_3d25ic7li88c7at6ta1b46l751, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[06-Nov-2011 23:58:07] PHP Stack trace:
+[06-Nov-2011 23:58:07] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/webdev/tool/quanta/index.php:0
+[06-Nov-2011 23:58:07] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/webdev/tool/quanta/index.php:1
+[06-Nov-2011 23:58:07] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
+[07-Nov-2011 01:40:51] PHP Warning:  session_start(): open(/var/lib/php/session/sess_edm57uig1jrdkkf5n88o3f0q00, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[07-Nov-2011 01:40:51] PHP Stack trace:
+[07-Nov-2011 01:40:51] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/webdev/tool/quanta/index.php:0
+[07-Nov-2011 01:40:51] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/webdev/tool/quanta/index.php:1
+[07-Nov-2011 01:40:51] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6

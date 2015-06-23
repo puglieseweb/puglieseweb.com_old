@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="home" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:page</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:lockable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>b9b3426a-06dd-4763-8211-2a888de13aa0</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2012-02-16T18:50:50.178+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2014-12-12T11:49:25.858+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:template" sv:type="String">
+        <sv:value>blossomPugliesewebModule:pages/main</sv:value>
+    </sv:property>
+    <sv:node sv:name="about">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:page</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>caab4f19-2fb4-431d-9d8a-1ce55db264fb</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2012-02-16T15:50:05.207+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2014-12-12T10:25:52.810+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+            <sv:value>blossomPugliesewebModule:pages/main</sv:value>
+        </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+            <sv:value>About</sv:value>
+        </sv:property>
+        <sv:node sv:name="main">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:area</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>e5b1b1fd-12de-44e4-95f3-0ba88dc70a6d</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:createdBy" sv:type="String">
+                <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:node sv:name="0">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:component</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                    <sv:value>mix:lockable</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:uuid" sv:type="String">
+                    <sv:value>9d8e432f-a473-405e-8f95-345474fe64d8</sv:value>
+                </sv:property>
+                <sv:property sv:name="body" sv:type="String">
+                    <sv:value>&lt;div&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut lectus felis.
+                        Suspendisse lacus massa, suscipit in luctus vitae, dictum ut est. Vivamus a nulla vitae nulla
+                        pulvinar mattis in at turpis. Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Praesent tempor enim nunc. Vestibulum dolor dui, varius nec hendrerit
+                        eget, rutrum ac lectus. In sit amet lectus justo, vitae tempus lorem. Proin erat enim, rhoncus
+                        non aliquet vitae, mattis egestas ligula.&lt;/div&gt; &lt;div&gt;&amp;nbsp;&lt;/div&gt; &lt;div&gt;Ut
+                        eget arcu et neque mollis elementum. Aliquam a quam urna. Donec quis dolor erat. Donec elementum
+                        semper ante, vel auctor massa imperdiet in. Nullam blandit mollis volutpat. Donec quis lacus
+                        vitae est rhoncus tincidunt nec sit amet ligula. Donec at felis risus, in accumsan eros. Sed
+                        lectus nulla, elementum quis imperdiet in, blandit sit amet mi.&lt;/div&gt; &lt;div&gt;&amp;nbsp;&lt;/div&gt;
+                        &lt;div&gt;Curabitur tincidunt, nibh ac suscipit pulvinar, nunc odio interdum dolor, non
+                        consequat libero ligula mattis tortor. Vestibulum est purus, interdum vitae molestie quis,
+                        aliquam a quam. Maecenas orci nisi, fermentum id tincidunt in, tincidunt sed risus. Praesent
+                        egestas nisi lacinia elit laoreet molestie. Phasellus quis bibendum felis. Aliquam tincidunt
+                        nunc eu nunc luctus in elementum tortor porttitor. Integer euismod consequat convallis.
+                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam
+                        adipiscing condimentum tortor sit amet gravida. In ipsum quam, pulvinar laoreet facilisis
+                        posuere, ultricies id elit. In rhoncus laoreet dui, et vehicula neque scelerisque sit amet. Ut
+                        et pellentesque libero. Fusce eu nulla risus.&lt;/div&gt;</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:createdBy" sv:type="String">
+                    <sv:value>admin</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:created" sv:type="Date">
+                    <sv:value>2012-02-16T16:03:53.564+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                    <sv:value>2012-02-16T16:04:33.197+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                    <sv:value>superuser</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:template" sv:type="String">
+                    <sv:value>blossomPugliesewebModule:components/text</sv:value>
+                </sv:property>
+                <sv:property sv:name="photo" sv:type="String">
+                    <sv:value>jcr:ef470d4d-ae23-487e-9269-824910b09b35</sv:value>
+                </sv:property>
+                <sv:node sv:name="body_files">
+                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                        <sv:value>mgnl:contentNode</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                        <sv:value>mix:lockable</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:uuid" sv:type="String">
+                        <sv:value>153fc3c6-a376-445a-a5b8-7c37df2c0c39</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:createdBy" sv:type="String">
+                        <sv:value>admin</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:created" sv:type="Date">
+                        <sv:value>2012-02-16T16:03:53.564+01:00</sv:value>
+                    </sv:property>
+                </sv:node>
+            </sv:node>
+        </sv:node>
+        <sv:node sv:name="promos">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:area</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>90d4a9c8-97cc-41e0-af64-95a535d35aa8</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:createdBy" sv:type="String">
+                <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                <sv:value>2012-02-16T16:04:53.693+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                <sv:value>superuser</sv:value>
+            </sv:property>
+        </sv:node>
+    </sv:node>
+    <sv:node sv:name="books">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:page</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>caabca0f-7bfd-4f54-b422-5c535d92e67c</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2012-02-16T15:50:05.833+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2012-02-16T18:51:52.151+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+            <sv:value>blossomPugliesewebModule:pages/main</sv:value>
+        </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+            <sv:value>Books</sv:value>
+        </sv:property>
+        <sv:node sv:name="monuments-book">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:page</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>24d3f038-acec-4422-9ae2-b907547a5a46</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:createdBy" sv:type="String">
+                <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+                <sv:value>2012-02-16T15:52:08.053+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                <sv:value>2012-02-16T18:51:52.152+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+                <sv:value>blossomPugliesewebModule:pages/main</sv:value>
+            </sv:property>
+            <sv:node sv:name="main">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:area</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:uuid" sv:type="String">
+                    <sv:value>5138d3a7-fc21-486d-b5a2-d526f395ff95</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:createdBy" sv:type="String">
+                    <sv:value>admin</sv:value>
+                </sv:property>
+                <sv:node sv:name="0">
+                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                        <sv:value>mgnl:component</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                        <sv:value>mix:lockable</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:uuid" sv:type="String">
+                        <sv:value>7ecc4585-3b69-4085-8ef9-daff0f0de80c</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="articleCode" sv:type="String">
+                        <sv:value>B001</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:createdBy" sv:type="String">
+                        <sv:value>admin</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:created" sv:type="Date">
+                        <sv:value>2012-02-16T15:53:38.730+01:00</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                        <sv:value>2012-02-16T15:53:38.730+01:00</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                        <sv:value>superuser</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:template" sv:type="String">
+                        <sv:value>blossomPugliesewebModule:components/book</sv:value>
+                    </sv:property>
+                </sv:node>
+            </sv:node>
+            <sv:node sv:name="promos">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:area</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:uuid" sv:type="String">
+                    <sv:value>2943f3c3-274f-479d-9832-30809d9775d6</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:createdBy" sv:type="String">
+                    <sv:value>admin</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                    <sv:value>2012-02-16T15:53:18.853+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                    <sv:value>superuser</sv:value>
+                </sv:property>
+            </sv:node>
+        </sv:node>
+        <sv:node sv:name="main">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:area</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>8e1798e8-dff3-4b06-a8f9-d7ab8cd93898</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:createdBy" sv:type="String">
+                <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:node sv:name="0">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:component</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                    <sv:value>mix:lockable</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:uuid" sv:type="String">
+                    <sv:value>9fd3d7f5-7281-4f96-9f83-c09de654ed17</sv:value>
+                </sv:property>
+                <sv:property sv:name="body" sv:type="String">
+                    <sv:value>&lt;p&gt;&lt;a
+                        href="${link:{uuid:{24d3f038-acec-4422-9ae2-b907547a5a46},repository:{website},handle:{/temporary/sections/books/monuments-book},nodeData:{},extension:{html}}}"&gt;&lt;strong&gt;Monuments
+                        book&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Great book about historic monuments in and
+                        around the city.&lt;/p&gt;</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:createdBy" sv:type="String">
+                    <sv:value>admin</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:created" sv:type="Date">
+                    <sv:value>2012-02-16T16:01:33.418+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                    <sv:value>2012-02-16T16:01:33.420+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                    <sv:value>superuser</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:template" sv:type="String">
+                    <sv:value>blossomPugliesewebModule:components/text</sv:value>
+                </sv:property>
+                <sv:node sv:name="body_files">
+                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                        <sv:value>mgnl:contentNode</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                        <sv:value>mix:lockable</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:uuid" sv:type="String">
+                        <sv:value>8c27e5f1-928d-43e9-a971-2e10c502e04b</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:createdBy" sv:type="String">
+                        <sv:value>admin</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:created" sv:type="Date">
+                        <sv:value>2012-02-16T16:01:33.419+01:00</sv:value>
+                    </sv:property>
+                </sv:node>
+            </sv:node>
+        </sv:node>
+        <sv:node sv:name="promos">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:area</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>40ce447c-b3e1-4f85-a4a6-3146bdd1b912</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:createdBy" sv:type="String">
+                <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                <sv:value>2012-02-16T16:01:52.836+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:node sv:name="0">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:component</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                    <sv:value>mix:lockable</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:uuid" sv:type="String">
+                    <sv:value>a49bae14-8a7b-417d-ae93-c8df92270a0f</sv:value>
+                </sv:property>
+                <sv:property sv:name="checkoutLink" sv:type="String">
+                    <sv:value>b52c643c-2bf7-41de-88f9-acea7be50e31</sv:value>
+                </sv:property>
+                <sv:property sv:name="inheritable" sv:type="String">
+                    <sv:value>true</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:createdBy" sv:type="String">
+                    <sv:value>admin</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:created" sv:type="Date">
+                    <sv:value>2012-02-16T16:02:02.583+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                    <sv:value>2012-02-16T16:02:02.583+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                    <sv:value>superuser</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:template" sv:type="String">
+                    <sv:value>blossomPugliesewebModule:components/shoppingCart</sv:value>
+                </sv:property>
+            </sv:node>
+        </sv:node>
+    </sv:node>
+    <sv:node sv:name="tours">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:page</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>c7b1d442-759d-47d1-bc4f-a4460c0caef1</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2012-02-16T15:50:08.788+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2012-02-16T18:51:59.785+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+            <sv:value>blossomPugliesewebModule:pages/main</sv:value>
+        </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+            <sv:value>Tours</sv:value>
+        </sv:property>
+        <sv:node sv:name="main">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:area</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>73a35fae-eba9-4bf4-93bf-860ebe194135</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:createdBy" sv:type="String">
+                <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:node sv:name="0">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:component</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                    <sv:value>mix:lockable</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:uuid" sv:type="String">
+                    <sv:value>b17a7166-cafe-4d5a-a2ea-3aa501bfb74e</sv:value>
+                </sv:property>
+                <sv:property sv:name="body" sv:type="String">
+                    <sv:value>&lt;p&gt;Take the &lt;a
+                        href="${link:{uuid:{d9ab43b7-e2b0-4a4c-bcfd-ffd24469f0b9},repository:{website},handle:{/temporary/sections/tours/statues-tour},nodeData:{},extension:{html}}}"&gt;tour
+                        of the most famous statues&lt;/a&gt; in Gothenburg!&lt;/p&gt;</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:createdBy" sv:type="String">
+                    <sv:value>admin</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:created" sv:type="Date">
+                    <sv:value>2012-02-16T15:58:19.570+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                    <sv:value>2012-02-16T15:58:19.572+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                    <sv:value>superuser</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:template" sv:type="String">
+                    <sv:value>blossomPugliesewebModule:components/text</sv:value>
+                </sv:property>
+                <sv:node sv:name="body_files">
+                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                        <sv:value>mgnl:contentNode</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                        <sv:value>mix:lockable</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:uuid" sv:type="String">
+                        <sv:value>124d5fe9-f721-45c7-8fe0-d40c0c7d85f3</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:createdBy" sv:type="String">
+                        <sv:value>admin</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:created" sv:type="Date">
+                        <sv:value>2012-02-16T15:58:19.571+01:00</sv:value>
+                    </sv:property>
+                </sv:node>
+            </sv:node>
+        </sv:node>
+        <sv:node sv:name="statues-tour">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:page</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>d9ab43b7-e2b0-4a4c-bcfd-ffd24469f0b9</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:createdBy" sv:type="String">
+                <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+                <sv:value>2012-02-16T15:52:11.440+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                <sv:value>2012-02-16T18:51:59.786+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+                <sv:value>blossomPugliesewebModule:pages/main</sv:value>
+            </sv:property>
+            <sv:node sv:name="main">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:area</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:uuid" sv:type="String">
+                    <sv:value>576d506d-803a-422d-9b9f-cea4b44fddfd</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:createdBy" sv:type="String">
+                    <sv:value>admin</sv:value>
+                </sv:property>
+                <sv:node sv:name="0">
+                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                        <sv:value>mgnl:component</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                        <sv:value>mix:lockable</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:uuid" sv:type="String">
+                        <sv:value>d06207f8-878b-4147-836d-a2f4bd6a1277</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="articleCode" sv:type="String">
+                        <sv:value>T001</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:createdBy" sv:type="String">
+                        <sv:value>admin</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:created" sv:type="Date">
+                        <sv:value>2012-02-16T15:52:43.102+01:00</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                        <sv:value>2012-02-16T15:52:43.102+01:00</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                        <sv:value>superuser</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:template" sv:type="String">
+                        <sv:value>blossomPugliesewebModule:components/tour</sv:value>
+                    </sv:property>
+                </sv:node>
+            </sv:node>
+            <sv:node sv:name="promos">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:area</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:uuid" sv:type="String">
+                    <sv:value>0d18c361-8391-4f1d-9353-d73a38b46167</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:createdBy" sv:type="String">
+                    <sv:value>admin</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                    <sv:value>2012-02-16T15:52:47.113+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                    <sv:value>superuser</sv:value>
+                </sv:property>
+                <sv:node sv:name="0">
+                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                        <sv:value>mgnl:component</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                        <sv:value>mix:lockable</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:uuid" sv:type="String">
+                        <sv:value>26053e55-8b42-4d0d-868f-c5c7b5b1e8c1</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="category" sv:type="String">
+                        <sv:value>Top Sellers</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:createdBy" sv:type="String">
+                        <sv:value>admin</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:created" sv:type="Date">
+                        <sv:value>2012-02-16T15:59:15.127+01:00</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                        <sv:value>2012-02-16T15:59:15.128+01:00</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                        <sv:value>superuser</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:template" sv:type="String">
+                        <sv:value>blossomPugliesewebModule:components/bookCategory</sv:value>
+                    </sv:property>
+                </sv:node>
+            </sv:node>
+        </sv:node>
+        <sv:node sv:name="promos">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:area</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>a6062554-5aee-475c-9fb2-c85ea4e6dcaf</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:createdBy" sv:type="String">
+                <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                <sv:value>2012-02-16T15:57:07.420+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:node sv:name="0">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:component</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                    <sv:value>mix:lockable</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:uuid" sv:type="String">
+                    <sv:value>68833754-6360-4354-98ae-b0e9969bb4a0</sv:value>
+                </sv:property>
+                <sv:property sv:name="checkoutLink" sv:type="String">
+                    <sv:value>b52c643c-2bf7-41de-88f9-acea7be50e31</sv:value>
+                </sv:property>
+                <sv:property sv:name="inheritable" sv:type="String">
+                    <sv:value>true</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:createdBy" sv:type="String">
+                    <sv:value>admin</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:created" sv:type="Date">
+                    <sv:value>2012-02-16T15:57:19.021+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                    <sv:value>2012-02-16T15:57:19.022+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                    <sv:value>superuser</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:template" sv:type="String">
+                    <sv:value>blossomPugliesewebModule:components/shoppingCart</sv:value>
+                </sv:property>
+            </sv:node>
+        </sv:node>
+    </sv:node>
+    <sv:node sv:name="contact">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:page</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>8bdf73bd-a175-4f72-ab14-3a5ede5d97a3</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2012-02-16T15:50:11.722+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2013-09-26T13:48:53.640+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+            <sv:value>blossomPugliesewebModule:pages/main</sv:value>
+        </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+            <sv:value>Contact</sv:value>
+        </sv:property>
+        <sv:node sv:name="main">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:area</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>0c6988ad-75a5-4a65-a436-9a8d030c9220</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:createdBy" sv:type="String">
+                <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                <sv:value>2013-09-26T13:48:53.640+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:node sv:name="0">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:component</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                    <sv:value>mix:lockable</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:uuid" sv:type="String">
+                    <sv:value>c19fa0dc-daec-47a6-87b3-2dfe39f360fc</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:createdBy" sv:type="String">
+                    <sv:value>admin</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:created" sv:type="Date">
+                    <sv:value>2012-02-16T15:51:45.208+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                    <sv:value>2013-09-26T13:48:53.640+02:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                    <sv:value>superuser</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:template" sv:type="String">
+                    <sv:value>blossomPugliesewebModule:components/contactForm</sv:value>
+                </sv:property>
+                <sv:property sv:name="successPage" sv:type="String">
+                    <sv:value>1398fa59-9cca-4dc8-b9d6-1561efd65038</sv:value>
+                </sv:property>
+            </sv:node>
+        </sv:node>
+        <sv:node sv:name="promos">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:area</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>3d5b48f4-7414-4bf1-91c6-149cb9742be6</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:createdBy" sv:type="String">
+                <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                <sv:value>2012-02-16T15:55:46.078+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:node sv:name="0">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:component</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                    <sv:value>mix:lockable</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:uuid" sv:type="String">
+                    <sv:value>09f9514f-12bf-4a71-add6-dcf77362a441</sv:value>
+                </sv:property>
+                <sv:property sv:name="checkoutLink" sv:type="String">
+                    <sv:value>b52c643c-2bf7-41de-88f9-acea7be50e31</sv:value>
+                </sv:property>
+                <sv:property sv:name="inheritable" sv:type="String">
+                    <sv:value>false</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:createdBy" sv:type="String">
+                    <sv:value>admin</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:created" sv:type="Date">
+                    <sv:value>2012-02-16T15:55:57.678+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                    <sv:value>2012-02-16T15:55:57.679+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                    <sv:value>superuser</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:template" sv:type="String">
+                    <sv:value>blossomPugliesewebModule:components/shoppingCart</sv:value>
+                </sv:property>
+            </sv:node>
+        </sv:node>
+        <sv:node sv:name="thanks">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:page</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>1398fa59-9cca-4dc8-b9d6-1561efd65038</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:createdBy" sv:type="String">
+                <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+                <sv:value>2013-09-26T13:47:59.814+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+                <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                <sv:value>2013-09-26T13:48:32.414+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+                <sv:value>blossomPugliesewebModule:pages/main</sv:value>
+            </sv:property>
+            <sv:property sv:name="title" sv:type="String">
+                <sv:value>Thanks</sv:value>
+            </sv:property>
+            <sv:node sv:name="main">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:area</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                    <sv:value>mix:lockable</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:uuid" sv:type="String">
+                    <sv:value>d5cddd5e-9445-4fb4-8f6a-ef4a70de5a09</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:createdBy" sv:type="String">
+                    <sv:value>admin</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                    <sv:value>2013-09-26T13:48:32.412+02:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                    <sv:value>superuser</sv:value>
+                </sv:property>
+                <sv:node sv:name="0">
+                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                        <sv:value>mgnl:component</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:uuid" sv:type="String">
+                        <sv:value>70fa9dd5-dc36-445a-875f-535494ce7124</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="body" sv:type="String">
+                        <sv:value>&lt;p&gt;A sales person will be in contact with you shortly.&lt;/p&gt;
+                        </sv:value>
+                    </sv:property>
+                    <sv:property sv:name="heading" sv:type="String">
+                        <sv:value>Thanks for your message</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="jcr:createdBy" sv:type="String">
+                        <sv:value>admin</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:created" sv:type="Date">
+                        <sv:value>2013-09-26T13:48:32.411+02:00</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+                        <sv:value>superuser</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                        <sv:value>2013-09-26T13:48:32.412+02:00</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                        <sv:value>superuser</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="mgnl:template" sv:type="String">
+                        <sv:value>blossomPugliesewebModule:components/text</sv:value>
+                    </sv:property>
+                </sv:node>
+            </sv:node>
+        </sv:node>
+    </sv:node>
+    <sv:node sv:name="checkout">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:page</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>b52c643c-2bf7-41de-88f9-acea7be50e31</sv:value>
+        </sv:property>
+        <sv:property sv:name="hideInNavigation" sv:type="String">
+            <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2012-02-16T15:49:46.854+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2012-02-16T18:52:17.610+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+            <sv:value>blossomPugliesewebModule:pages/main</sv:value>
+        </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+            <sv:value>Checkout</sv:value>
+        </sv:property>
+        <sv:node sv:name="main">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:area</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>69aa50b8-b30b-4113-842b-d570a54973a3</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:createdBy" sv:type="String">
+                <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:node sv:name="0">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:component</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                    <sv:value>mix:lockable</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:uuid" sv:type="String">
+                    <sv:value>66129336-6289-4471-9778-06e866af2de4</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:createdBy" sv:type="String">
+                    <sv:value>admin</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:created" sv:type="Date">
+                    <sv:value>2012-02-16T15:51:31.156+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                    <sv:value>2012-02-16T16:18:59.342+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                    <sv:value>superuser</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:template" sv:type="String">
+                    <sv:value>blossomPugliesewebModule:components/shoppingCartView</sv:value>
+                </sv:property>
+                <sv:property sv:name="paymentLink" sv:type="String">
+                    <sv:value>3284f21a-ed7f-498a-aa0c-d90229634e38</sv:value>
+                </sv:property>
+                <sv:property sv:name="title" sv:type="String">
+                    <sv:value>Your shopping cart contains</sv:value>
+                </sv:property>
+            </sv:node>
+        </sv:node>
+        <sv:node sv:name="promos">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:area</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>8c872355-5f22-481e-b0c2-04842b5eb3ae</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:createdBy" sv:type="String">
+                <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                <sv:value>2012-02-16T15:54:27.605+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:node sv:name="0">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:component</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                    <sv:value>mix:lockable</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:uuid" sv:type="String">
+                    <sv:value>52fdd7b2-cb3f-42ec-a044-be509cfe6fa6</sv:value>
+                </sv:property>
+                <sv:property sv:name="category" sv:type="String">
+                    <sv:value>Featured</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:createdBy" sv:type="String">
+                    <sv:value>admin</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:created" sv:type="Date">
+                    <sv:value>2012-02-16T15:54:37.824+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                    <sv:value>2012-02-16T15:54:37.825+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                    <sv:value>superuser</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:template" sv:type="String">
+                    <sv:value>blossomPugliesewebModule:components/bookCategory</sv:value>
+                </sv:property>
+            </sv:node>
+        </sv:node>
+    </sv:node>
+    <sv:node sv:name="payment">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:page</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>3284f21a-ed7f-498a-aa0c-d90229634e38</sv:value>
+        </sv:property>
+        <sv:property sv:name="hideInNavigation" sv:type="String">
+            <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2012-02-16T15:49:41.693+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2012-02-16T18:52:10.913+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+            <sv:value>blossomPugliesewebModule:pages/main</sv:value>
+        </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+            <sv:value>Payment</sv:value>
+        </sv:property>
+        <sv:node sv:name="main">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:area</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>88fa0396-216d-44cd-8ded-df8eb9e21342</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:createdBy" sv:type="String">
+                <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:node sv:name="0">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:component</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+                    <sv:value>mix:lockable</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:uuid" sv:type="String">
+                    <sv:value>6e8bc450-9c11-4015-a8a6-c69cedf41a90</sv:value>
+                </sv:property>
+                <sv:property sv:name="jcr:createdBy" sv:type="String">
+                    <sv:value>admin</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:created" sv:type="Date">
+                    <sv:value>2012-02-16T15:51:08.505+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+                    <sv:value>2012-02-16T15:51:08.505+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+                    <sv:value>superuser</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:template" sv:type="String">
+                    <sv:value>blossomPugliesewebModule:components/purchase</sv:value>
+                </sv:property>
+            </sv:node>
+        </sv:node>
+    </sv:node>
+    <sv:node sv:name="main">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>22bc38b7-0814-4512-8d51-93bb8b3f84ea</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+        </sv:property>
+    </sv:node>
+</sv:node>

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "private"
+AuthUserFile /web/htdocs/www.puglieseweb.com/home/pages/interview/.htpasswd
+require valid-user

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd" >
+<module>
+  <name>blossomPugliesewebModule</name>
+  <displayName>Blossom Puglieseweb Module</displayName>
+  <description>Puglieseweb's templates</description>
+  <class>com.puglieseweb.app.web.BlossomPugliesewebModule</class>
+  <versionHandler>com.puglieseweb.app.web.setup.BlossomSampleModuleVersionHandler</versionHandler>
+  <version>${project.version}</version>
+
+  <dependencies>
+    <dependency>
+      <name>core</name>
+      <version>${magnoliaVersion}/*</version>
+    </dependency>
+    <dependency>
+      <name>rendering</name>
+      <version>${magnoliaVersion}/*</version>
+    </dependency>
+    <dependency>
+      <name>templating</name>
+      <version>${magnoliaVersion}/*</version>
+    </dependency>
+    <dependency>
+      <name>templating-jsp</name>
+      <version>${magnoliaVersion}/*</version>
+    </dependency>
+    <dependency>
+      <name>blossom</name>
+      <version>${blossomVersion}/*</version>
+    </dependency>
+  </dependencies>
+</module>

@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www.)?puglieseweb.com$ [NC]
+RewriteCond %{REQUEST_URI} !^/pages/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /pages/$1.php
+RewriteCond %{HTTP_HOST} ^(www.)?puglieseweb.com$ [NC]
+RewriteRule ^(/)?$ pages/index.php [L]

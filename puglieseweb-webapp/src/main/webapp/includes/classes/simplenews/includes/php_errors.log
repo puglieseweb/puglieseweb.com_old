@@ -1,0 +1,2 @@
+[16-Aug-2011 22:55:29] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/classes/simplenews/includes/dbconnect.php on line 16
+[17-Aug-2011 19:50:38] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/classes/simplenews/includes/dbconnect.php on line 16

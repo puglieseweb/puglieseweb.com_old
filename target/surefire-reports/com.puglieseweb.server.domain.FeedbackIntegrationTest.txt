@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.puglieseweb.server.domain.FeedbackIntegrationTest
--------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.799 sec

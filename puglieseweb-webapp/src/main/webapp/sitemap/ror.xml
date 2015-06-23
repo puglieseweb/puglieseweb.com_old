@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://www.puglieseweb.com/</title>
+  <link>http://www.puglieseweb.com/</link>
+
+<item>
+     <link>http://www.puglieseweb.com/</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/programming/</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/unix/</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/webdev/</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/dbms/</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/financial/definitions/financial.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/financial/definitions/investopedia.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/financial/definitions/dictionary.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/webdev/xhtml.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/webdev/index.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/webdev/htm5prj.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/webdev/stylesheets.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/webdev/accessibility.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/dbms/index.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/dbms/sql/sql1.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/dbms/sql/sql.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/dbms/jpa/index.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/programming/index.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/programming/design/scalable_system.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/programming/design/development_methodologies.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/programming/design/patters&amp;principles.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/programming/design/architectural_styles.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/programming/design/four_layer_architecture.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/programming/documentation/report.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/programming/IO/files.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/master-foot.inc.php</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/master-head.inc.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/graphs/phplot.php</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/graphs/phplot_data.php</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/graphs/rgb.inc.php</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/news.php</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/print.php</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/setup/index.php</link>
+     <title>SimpleNews Setup</title>
+     <description>SimpleNews Setup</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/setup/sql_tables.php</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/includes/submit-login.php</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/includes/dbconnect.php</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/includes/../admin/index.php</link>
+     <title>SimpleNews Administration</title>
+     <description>SimpleNews Administration</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/includes/settings.php</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/includes/functions.php</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/admin/users.php</link>
+     <title>SimpleNews Administration</title>
+     <description>SimpleNews Administration</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/admin/index.php</link>
+     <title>SimpleNews Administration</title>
+     <description>SimpleNews Administration</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/admin/ban.php</link>
+     <title>SimpleNews Administration</title>
+     <description>SimpleNews Administration</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/admin/comments.php</link>
+     <title>SimpleNews Administration</title>
+     <description>SimpleNews Administration</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/admin/prefs.php</link>
+     <title>SimpleNews Administration</title>
+     <description>SimpleNews Administration</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/admin/login.php</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/admin/article.php</link>
+     <title>SimpleNews Administration</title>
+     <description>SimpleNews Administration</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/admin/footer.php</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/admin/help.php</link>
+     <title>SimpleNews Administration</title>
+     <description>SimpleNews Administration</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/classes/simplenews/admin/header.php</link>
+     <title>SimpleNews Administration</title>
+     <description>SimpleNews Administration</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/functions/function_html.inc.php</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/includes/functions/function_ldap.inc.php</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/unix/Troubleshoots.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/unix/vim.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/unix/index.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/unix/selinux.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/unix/apache.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/unix/general.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/unix/bash/sed.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/unix/bash/cron.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/unix/bash/commands.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/unix/bash/scripts.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/unix/fedora/apache_server.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.puglieseweb.com/unix/fedora/fedora.php</link>
+     <title>Puglieseweb - Technology notes</title>
+     <description>Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

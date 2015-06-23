@@ -1,0 +1,10 @@
+[05-Nov-2011 11:27:12] PHP Warning:  session_start(): open(/var/lib/php/session/sess_3d3bdm478d1m8jp5pcsdi49s44, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[05-Nov-2011 11:27:12] PHP Stack trace:
+[05-Nov-2011 11:27:12] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/unix/configuration/jdk.php:0
+[05-Nov-2011 11:27:12] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/unix/configuration/jdk.php:1
+[05-Nov-2011 11:27:12] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
+[07-Nov-2011 01:30:21] PHP Warning:  session_start(): open(/var/lib/php/session/sess_edm57uig1jrdkkf5n88o3f0q00, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[07-Nov-2011 01:30:21] PHP Stack trace:
+[07-Nov-2011 01:30:21] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/unix/configuration/jdk.php:0
+[07-Nov-2011 01:30:21] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/unix/configuration/jdk.php:1
+[07-Nov-2011 01:30:21] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6

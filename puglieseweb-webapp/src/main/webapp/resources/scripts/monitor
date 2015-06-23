@@ -1,0 +1,5 @@
+#! /bin/bash
+xrandr --newmode "1280x1024_74.00"  136.57  1280 1368 1504 1728  1024 1025 1028 1068  -HSync +Vsync
+xrandr --addmode VGA1 1280x1024_74.00
+xrandr --output VGA1 --mode 1280x1024_74.00
+

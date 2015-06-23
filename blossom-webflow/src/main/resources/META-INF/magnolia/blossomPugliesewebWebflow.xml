@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd">
+<module>
+  <name>blossomPugliesewebWebflow</name>
+  <displayName>Blossom Puglieseweb WebFlow</displayName>
+  <description>Blossom Puglieseweb's WebFlow</description>
+  <version>${project.version}</version>
+
+  <dependencies>
+    <dependency>
+      <name>core</name>
+      <version>${magnoliaVersion}/*</version>
+    </dependency>
+    <dependency>
+      <name>templating</name>
+      <version>${magnoliaVersion}/*</version>
+    </dependency>
+    <dependency>
+      <name>blossom</name>
+      <version>${blossomVersion}/*</version>
+    </dependency>
+  </dependencies>
+
+</module>

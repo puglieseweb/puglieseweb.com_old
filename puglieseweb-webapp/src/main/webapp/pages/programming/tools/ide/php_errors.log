@@ -1,0 +1,98 @@
+[05-Nov-2011 12:01:09] PHP Warning:  include(../../includes/master-head.inc.php): failed to open stream: No such file or directory in /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php on line 1
+[05-Nov-2011 12:01:09] PHP Stack trace:
+[05-Nov-2011 12:01:09] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php:0
+[05-Nov-2011 12:01:09] PHP Warning:  include(): Failed opening '../../includes/master-head.inc.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php on line 1
+[05-Nov-2011 12:01:09] PHP Stack trace:
+[05-Nov-2011 12:01:09] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php:0
+[05-Nov-2011 12:01:09] PHP Warning:  include(../../includes/master-foot.inc.php): failed to open stream: No such file or directory in /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php on line 12
+[05-Nov-2011 12:01:09] PHP Stack trace:
+[05-Nov-2011 12:01:09] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php:0
+[05-Nov-2011 12:01:09] PHP Warning:  include(): Failed opening '../../includes/master-foot.inc.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php on line 12
+[05-Nov-2011 12:01:09] PHP Stack trace:
+[05-Nov-2011 12:01:09] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php:0
+[05-Nov-2011 12:01:39] PHP Warning:  include(../../includes/master-head.inc.php): failed to open stream: No such file or directory in /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php on line 1
+[05-Nov-2011 12:01:39] PHP Stack trace:
+[05-Nov-2011 12:01:39] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php:0
+[05-Nov-2011 12:01:39] PHP Warning:  include(): Failed opening '../../includes/master-head.inc.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php on line 1
+[05-Nov-2011 12:01:39] PHP Stack trace:
+[05-Nov-2011 12:01:39] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php:0
+[05-Nov-2011 12:01:39] PHP Warning:  include(../../includes/master-foot.inc.php): failed to open stream: No such file or directory in /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php on line 17
+[05-Nov-2011 12:01:39] PHP Stack trace:
+[05-Nov-2011 12:01:39] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php:0
+[05-Nov-2011 12:01:39] PHP Warning:  include(): Failed opening '../../includes/master-foot.inc.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php on line 17
+[05-Nov-2011 12:01:39] PHP Stack trace:
+[05-Nov-2011 12:01:39] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php:0
+[05-Nov-2011 12:01:53] PHP Warning:  session_start(): open(/var/lib/php/session/sess_3d3bdm478d1m8jp5pcsdi49s44, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[05-Nov-2011 12:01:53] PHP Stack trace:
+[05-Nov-2011 12:01:53] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php:0
+[05-Nov-2011 12:01:53] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/programming/tools/ide/intellij.php:1
+[05-Nov-2011 12:01:53] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
+[06-Nov-2011 19:12:02] PHP Warning:  session_start(): open(/var/lib/php/session/sess_3d25ic7li88c7at6ta1b46l751, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[06-Nov-2011 19:12:02] PHP Stack trace:
+[06-Nov-2011 19:12:02] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:0
+[06-Nov-2011 19:12:02] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:1
+[06-Nov-2011 19:12:02] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
+[06-Nov-2011 20:47:31] PHP Warning:  session_start(): open(/var/lib/php/session/sess_3d25ic7li88c7at6ta1b46l751, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[06-Nov-2011 20:47:31] PHP Stack trace:
+[06-Nov-2011 20:47:31] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:0
+[06-Nov-2011 20:47:31] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:1
+[06-Nov-2011 20:47:31] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
+[06-Nov-2011 21:46:28] PHP Warning:  session_start(): open(/var/lib/php/session/sess_3d25ic7li88c7at6ta1b46l751, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[06-Nov-2011 21:46:28] PHP Stack trace:
+[06-Nov-2011 21:46:28] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:0
+[06-Nov-2011 21:46:28] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:1
+[06-Nov-2011 21:46:28] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
+[07-Nov-2011 01:40:00] PHP Warning:  session_start(): open(/var/lib/php/session/sess_edm57uig1jrdkkf5n88o3f0q00, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[07-Nov-2011 01:40:00] PHP Stack trace:
+[07-Nov-2011 01:40:00] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:0
+[07-Nov-2011 01:40:00] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:1
+[07-Nov-2011 01:40:00] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
+[07-Nov-2011 14:53:17] PHP Warning:  session_start(): open(/var/lib/php/session/sess_4oa0v4bu8er56l2i9gdlf8rk90, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[07-Nov-2011 14:53:17] PHP Stack trace:
+[07-Nov-2011 14:53:17] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:0
+[07-Nov-2011 14:53:17] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:1
+[07-Nov-2011 14:53:17] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
+[07-Nov-2011 14:53:20] PHP Warning:  session_start(): open(/var/lib/php/session/sess_4oa0v4bu8er56l2i9gdlf8rk90, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[07-Nov-2011 14:53:20] PHP Stack trace:
+[07-Nov-2011 14:53:20] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/quanta.php:0
+[07-Nov-2011 14:53:20] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/quanta.php:1
+[07-Nov-2011 14:53:20] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
+[10-Nov-2011 00:24:19] PHP Warning:  session_start(): open(/var/lib/php/session/sess_b4kaabfhdbdq628n70luhlnou0, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[10-Nov-2011 00:24:19] PHP Stack trace:
+[10-Nov-2011 00:24:19] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:0
+[10-Nov-2011 00:24:19] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:1
+[10-Nov-2011 00:24:19] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
+[10-Nov-2011 00:24:19] PHP Warning:  include(/backlinks.php): failed to open stream: No such file or directory in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 96
+[10-Nov-2011 00:24:19] PHP Stack trace:
+[10-Nov-2011 00:24:19] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:0
+[10-Nov-2011 00:24:19] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:1
+[10-Nov-2011 00:24:19] PHP Warning:  include(): Failed opening '/backlinks.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 96
+[10-Nov-2011 00:24:19] PHP Stack trace:
+[10-Nov-2011 00:24:19] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:0
+[10-Nov-2011 00:24:19] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:1
+[10-Nov-2011 00:24:19] PHP Warning:  session_start(): open(/var/lib/php/session/sess_b4kaabfhdbdq628n70luhlnou0, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[10-Nov-2011 00:24:19] PHP Stack trace:
+[10-Nov-2011 00:24:19] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:0
+[10-Nov-2011 00:24:19] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:1
+[10-Nov-2011 00:24:19] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
+[10-Nov-2011 00:24:19] PHP Warning:  include(/backlinks.php): failed to open stream: No such file or directory in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 96
+[10-Nov-2011 00:24:19] PHP Stack trace:
+[10-Nov-2011 00:24:19] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:0
+[10-Nov-2011 00:24:19] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:1
+[10-Nov-2011 00:24:19] PHP Warning:  include(): Failed opening '/backlinks.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 96
+[10-Nov-2011 00:24:19] PHP Stack trace:
+[10-Nov-2011 00:24:19] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:0
+[10-Nov-2011 00:24:19] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:1
+[10-Nov-2011 00:24:20] PHP Warning:  session_start(): open(/var/lib/php/session/sess_b4kaabfhdbdq628n70luhlnou0, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[10-Nov-2011 00:24:21] PHP Stack trace:
+[10-Nov-2011 00:24:21] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:0
+[10-Nov-2011 00:24:21] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:1
+[10-Nov-2011 00:24:21] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
+[10-Nov-2011 00:24:21] PHP Warning:  include(/backlinks.php): failed to open stream: No such file or directory in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 96
+[10-Nov-2011 00:24:21] PHP Stack trace:
+[10-Nov-2011 00:24:21] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:0
+[10-Nov-2011 00:24:21] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:1
+[10-Nov-2011 00:24:21] PHP Warning:  include(): Failed opening '/backlinks.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 96
+[10-Nov-2011 00:24:21] PHP Stack trace:
+[10-Nov-2011 00:24:21] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:0
+[10-Nov-2011 00:24:21] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/programming/tools/ide/intellij.php:1

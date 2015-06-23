@@ -1,0 +1,256 @@
+<?php
+/*
+*   Author: Emanuele PUGLIESE
+*/
+
+session_start();
+
+/**////////    Website root    ///////////**/
+$_SESSION['root'] = $_SERVER['SERVER_NAME'];
+/**///////////////////////////////////////**/
+
+?>
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+<title>Puglieseweb - Technology notes</title>
+<meta name="description"
+	content="Emanuele Pugliese's website - JAVA, GWT, HTML5, TECHNOLOGY">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="generator" content="Quanta Plus" />
+<meta http-equiv="Content type" content="text/html; charset=iso-8859-1" />
+<meta name="author" content="Emanuele Pugliese" />
+<meta name="reply-to" content="puglieseweb@gmail.com" />
+<meta name="copyright"
+	content="&copy; Copyright 2011 Puglieseweb.com. All Rights reserved." />
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<link rel="stylesheet" href="/css/master.css" />
+<link rel="stylesheet" href="/css/general.css" />
+<link rel="stylesheet" href="/css/contents.css" />
+<link rel="shortcut icon" href="favicon.ico" />
+
+<link rel="stylesheet" href="/css/style.css">
+<!-- 
+ -->
+
+<script src="/js/libs/modernizr-2.0.6.min.js"></script>
+
+
+
+<!-- 
+
+<script type="text/javascript" src="/aloha/aloha.js"></script>
+<script type="text/javascript" src="/aloha/plugins/com.example.aloha.plugins.Save/plugin.js"></script>
+<script type="text/javascript" src="/aloha/plugins/com.gentics.aloha.plugins.Format/plugin.js"></script>
+<script type="text/javascript" src="/aloha/plugins/com.gentics.aloha.plugins.Table/plugin.js"></script>
+<script type="text/javascript" src="/aloha/plugins/com.gentics.aloha.plugins.List/plugin.js"></script>
+<script type="text/javascript" src="/aloha/plugins/com.gentics.aloha.plugins.Link/plugin.js"></script>
+<script type="text/javascript" src="/aloha/plugins/com.gentics.aloha.plugins.HighlightEditables/plugin.js"></script>
+<script type="text/javascript" src="/aloha/plugins/com.gentics.aloha.plugins.TOC/plugin.js"></script>
+<script type="text/javascript" src="/aloha/plugins/com.gentics.aloha.plugins.Link/delicious.js"></script>
+<script type="text/javascript" src="/aloha/plugins/com.gentics.aloha.plugins.Link/LinkList.js"></script>
+<script type="text/javascript" src="/aloha/plugins/com.gentics.aloha.plugins.Paste/plugin.js"></script>
+<script type="text/javascript" src="/aloha/plugins/com.gentics.aloha.plugins.Paste/wordpastehandler.js"></script>
+
+ -->
+
+<!-- turn an element into editable Aloha continuous text 
+
+<script type="text/javascript">
+	GENTICS.Aloha.settings = {
+		logLevels : {
+			'error' : true,
+			'warn' : true,
+			'info' : true,
+			'debug' : false
+		},
+		errorhandling : false,
+		ribbon : false,
+		"i18n" : {
+			// you can either let the system detect the users language (set acceptLanguage on server)
+			// In PHP this would would be '<?=$_SERVER['HTTP_ACCEPT_LANGUAGE']?>' resulting in
+			// "acceptLanguage": 'de-de,de;q=0.8,it;q=0.6,en-us;q=0.7,en;q=0.2'
+			// or set current on server side to be in sync with your backend system
+			"current" : "en"
+		},
+		"repositories" : {
+			"com.gentics.aloha.repositories.LinkList" : {
+				data : [
+						{
+							name : 'Aloha Developers Wiki',
+							url : 'http://www.aloha-editor.com/wiki',
+							type : 'website',
+							weight : 0.50
+						},
+						{
+							name : 'Aloha Editor - The HTML5 Editor',
+							url : 'http://aloha-editor.com',
+							type : 'website',
+							weight : 0.90
+						},
+						{
+							name : 'Aloha Demo',
+							url : 'http://www.aloha-editor.com/demos.html',
+							type : 'website',
+							weight : 0.75
+						},
+						{
+							name : 'Aloha Wordpress Demo',
+							url : 'http://www.aloha-editor.com/demos/wordpress-demo/index.html',
+							type : 'website',
+							weight : 0.75
+						},
+						{
+							name : 'Aloha Logo',
+							url : 'http://www.aloha-editor.com/images/aloha-editor-logo.png',
+							type : 'image',
+							weight : 0.10
+						} ]
+			}
+		},
+		"plugins" : {
+			"com.gentics.aloha.plugins.Format" : {
+				// all elements with no specific configuration get this configuration
+				config : [ 'b', 'i', 'sub', 'sup' ],
+				editables : {
+					// no formatting allowed for title
+					'#title' : [],
+					// formatting for all editable DIVs
+					'div' : [ 'b', 'i', 'del', 'sub', 'sup' ],
+					// content is a DIV and has class .article so it gets both buttons
+					'.article' : [ 'b', 'i', 'p', 'title', 'h1', 'h2', 'h3',
+							'h4', 'h5', 'h6', 'pre', 'removeFormat' ]
+				}
+			},
+			"com.gentics.aloha.plugins.List" : {
+				// all elements with no specific configuration get an UL, just for fun :)
+				config : [ 'ul' ],
+				editables : {
+					// Even if this is configured it is not set because OL and UL are not allowed in H1.
+					'#title' : [ 'ol' ],
+					// all divs get OL
+					'div' : [ 'ol' ],
+					// content is a DIV. It would get only OL but with class .article it also gets UL.
+					'.article' : [ 'ul' ]
+				}
+			},
+			"com.gentics.aloha.plugins.Link" : {
+				// all elements with no specific configuration may insert links
+				config : [ 'a' ],
+				editables : {
+					// No links in
+					 the title.
+					'#title' : []
+				},
+				// all links that match the targetregex will get set the target
+				// e.g. ^(?!.*aloha-editor.com).* matches all href except aloha-editor.com
+				targetregex : '^(?!.*aloha-editor.com).*',
+				// this target is set when either targetregex matches or not set
+				// e.g. _blank opens all links in new window
+				target : '_blank',
+				// the same for css class as for target
+				cssclassregex : '^(?!.*aloha-editor.com).*',
+				cssclass : 'aloha',
+				// use all resources of type website for autosuggest
+				objectTypeFilter : [ 'website' ],
+				// handle change of href
+				onHrefChange : function(obj, href, item) {
+					if (item) {
+						jQuery(obj).attr('data-name', item.name);
+					} else {
+						jQuery(obj).removeAttr('data-name');
+					}
+				}
+			},
+			"com.gentics.aloha.plugins.Table" : {
+				// all elements with no specific configuration are not allowed to insert tables
+				config : [],
+				editables : {
+					// Allow insert tables only into .article
+					'.article' : [ 'table' ]
+				}
+			}
+		}
+	};
+
+	$(document).ready(function() {
+		$('#title').aloha();
+		$('#teaser').aloha();
+		$('#content').aloha();
+	});
+</script>
+-->
+</head>
+
+<!-- ************    HEADING    ************ -->
+<body>
+	<div id="pagina">
+		<div id="ausiliario">
+
+			<div id="intestazione">
+				<div id="container">
+				<header>
+					<div id="logo">
+						<nav>
+							<ul class="navigazione" id="IntranetTopNavigation">
+								<li><a style="color: #FF6600" id="editor" href="#"
+									title="Enable Editor Demo">Enable Editor Demo</a></li>
+								<li><a style="color: #FF6600" id="save" href="#"
+									title="Editor Save Demo">Save editor Demo</a></li>
+
+
+								<li><a href="/about/" title="About Puglieseweb.com">About
+										us</a></li>
+								<li><a href="/login.php" title="Administrators Login">Log
+										in</a></li>
+							</ul>
+						</nav>
+						<a href="/" title="Puglieseweb Home" id="pweb-logo">
+							Puglieseweb Development </a>
+						<hgroup>
+							<h1>Puglieseweb.con</h1>
+							<h2>Emanauele's Web Space</h2>
+						</hgroup>
+
+					</div>
+					<div id="login">
+						<nav>
+							<ul class="navigazione home_button">
+								<li><a href="/programming/programming.php"
+									title="Programming section">Programming</a></li>
+								<li><a href="/unix/unix.php" title="Bash and Linux section">Unix</a></li>
+								<li><a href="/webdev/web_development.php"
+									title="Web development section">Web</a></li>
+								<li><a href="/dbms/dbms.php"
+									title="SQL and Databases section">DBMS</a></li>
+							</ul>
+						</nav>
+						<div id="date"></div>
+					</div>
+
+					<div id="user-status"></div>
+				</header>
+			</div>
+			<!--  end heading -->
+
+
+			<!-- ************    MIDDLE    ************ -->
+			<div id="corpo">
+				<div id="colonna-1">
+
+					<?php require $_SERVER['DOCUMENT_ROOT'] . "/includes/master-menu.inc.php" ; ?>
+				</div>
+				<div id="colonna-2">
+					<div id="content">
+					<div id="main" role="main">
+						<section id="content-page">
+						
+							<!-- FOLLOWING PLACE THE PAGE CONTENT -->

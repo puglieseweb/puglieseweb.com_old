@@ -1,0 +1,22 @@
+[07-Nov-2011 01:34:20] PHP Warning:  session_start(): open(/var/lib/php/session/sess_edm57uig1jrdkkf5n88o3f0q00, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[07-Nov-2011 01:34:20] PHP Stack trace:
+[07-Nov-2011 01:34:20] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/interview/soft_skills/soft_skill_questions.php:0
+[07-Nov-2011 01:34:20] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/interview/soft_skills/soft_skill_questions.php:1
+[07-Nov-2011 01:34:20] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
+[07-Nov-2011 01:34:45] PHP Warning:  session_start(): open(/var/lib/php/session/sess_edm57uig1jrdkkf5n88o3f0q00, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
+[07-Nov-2011 01:34:45] PHP Stack trace:
+[07-Nov-2011 01:34:45] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/interview/soft_skills/soft_skill_questions.php:0
+[07-Nov-2011 01:34:45] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/interview/soft_skills/soft_skill_questions.php:1
+[07-Nov-2011 01:34:45] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
+[09-Nov-2011 12:18:35] PHP Warning:  include(../../includes/master-head.inc.php): failed to open stream: No such file or directory in /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/interview/soft_skills/index.php on line 1
+[09-Nov-2011 12:18:36] PHP Stack trace:
+[09-Nov-2011 12:18:36] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/interview/soft_skills/index.php:0
+[09-Nov-2011 12:18:36] PHP Warning:  include(): Failed opening '../../includes/master-head.inc.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/interview/soft_skills/index.php on line 1
+[09-Nov-2011 12:18:36] PHP Stack trace:
+[09-Nov-2011 12:18:36] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/interview/soft_skills/index.php:0
+[09-Nov-2011 12:18:36] PHP Warning:  include(../../includes/master-foot.inc.php): failed to open stream: No such file or directory in /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/interview/soft_skills/index.php on line 2
+[09-Nov-2011 12:18:36] PHP Stack trace:
+[09-Nov-2011 12:18:36] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/interview/soft_skills/index.php:0
+[09-Nov-2011 12:18:36] PHP Warning:  include(): Failed opening '../../includes/master-foot.inc.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/interview/soft_skills/index.php on line 2
+[09-Nov-2011 12:18:36] PHP Stack trace:
+[09-Nov-2011 12:18:36] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/interview/soft_skills/index.php:0
