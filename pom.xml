@@ -75,6 +75,11 @@
         <version>4.11</version>
         <scope>test</scope>
       </dependency>
+      <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.35</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
@@ -138,5 +143,6 @@
     <module>puglieseweb-webapp</module>
     <module>blossom-module</module>
     <module>blossom-webflow</module>
+    <module>database</module>
   </modules>
 </project>

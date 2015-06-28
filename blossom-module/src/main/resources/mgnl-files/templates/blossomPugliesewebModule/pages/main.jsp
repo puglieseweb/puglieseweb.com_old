@@ -10,7 +10,8 @@
             </c:forEach>
         </ul>
     </div>
-
+    <h1> Working in progress... </h1>
+    <p> Hi! I am building my personal blog which will host tutorials about the technology I about web site </p>
         <cms:area name="main"/>
 
         <cms:area name="promos"/>
