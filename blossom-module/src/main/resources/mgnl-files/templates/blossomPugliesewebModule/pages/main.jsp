@@ -2,16 +2,9 @@
 <%--@elvariable id="navigation" type="java.util.Map<java.lang.String, java.lang.String>"--%>
 <%@ include file="../includes/taglibs.jsp" %>
 <%@ include file="../includes/master-head.inc.jsp" %>
-    <div id="menu">
-        <ul>
-            <c:forEach items="${navigation}" var="navigationEntry">
-                <li><a href="${pageContext.request.contextPath}${navigationEntry.key}.html">${navigationEntry.value}</a>
-                </li>
-            </c:forEach>
-        </ul>
-    </div>
     <h1> Working in progress... </h1>
-    <p> Hi! I am building my personal blog which will host tutorials about the technology I about web site </p>
+    <br> Hi!</br>
+        I'm Emanuele and this web site is about to host my personal blog which will focus on Java related techonologies I daily use.</p>
         <cms:area name="main"/>
 
         <cms:area name="promos"/>

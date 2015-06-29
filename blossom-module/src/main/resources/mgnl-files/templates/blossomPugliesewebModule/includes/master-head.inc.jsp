@@ -45,7 +45,7 @@
 
 
 								<li><a href="/about/project" title="About Puglieseweb.com">About</a></li>
-								<li><a href="/login.php" title="Administrators Login">Log
+								<li><a href=".magnolia/admincentral" title="Administrators Login">Web Author Log
 										in</a></li>
 							</ul>
 						</nav>
@@ -60,16 +60,20 @@
 				<nav>
 					<div id="main_nav">
 						<ul class="navigazione home_button">
-							<!--
-								<li><a href="/programming/programming.php"
-									title="Programming section">Programming</a></li>
-								<li><a href="/unix/unix.php" title="Bash and Linux section">Unix</a></li>
-								<li><a href="/webdev/web_development.php"
-									title="Web development section">Web</a></li>
-								<li><a href="/dbms/dbms.php"
-									title="SQL and Databases section">DBMS</a></li>
-							-->
 							<li><a href="/" title="Index page">Home</a>
+								<!--
+                                            <li><a href="/programming/programming.php"
+                                                title="Programming section">Programming</a></li>
+                                            <li><a href="/unix/unix.php" title="Bash and Linux section">Unix</a></li>
+                                            <li><a href="/webdev/web_development.php"
+                                                title="Web development section">Web</a></li>
+                                            <li><a href="/dbms/dbms.php"
+                                                title="SQL and Databases section">DBMS</a></li>
+                                        -->
+							<c:forEach items="${navigation}" var="navigationEntry">
+								<li><a href="${pageContext.request.contextPath}${navigationEntry.key}.html">${navigationEntry.value}</a>
+								</li>
+							</c:forEach>
 						</ul>
 					</div>
 				</nav>
