@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+        <changeSet id="create-magnolia-database" author="Emanuele Pugliese">
+                <sqlFile path="src/main/resources/sql/install/create-magnolia-schema.sql"/>
+                <rollback>
+                        <sqlFile path="src/main/resources/sql/rollback/create-magnolia-schema.sql"/>
+                </rollback>
+                <comment>Initialize Magnolia Database</comment>
+        </changeSet>
+</databaseChangeLog>

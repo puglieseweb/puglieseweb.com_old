@@ -1,0 +1,1 @@
+CREATE SCHEMA magnolia_author IF NOT EXISTS;
