@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "private"
-AuthUserFile /web/htdocs/www.puglieseweb.com/home/pages/private/.htpasswd
-require valid-user

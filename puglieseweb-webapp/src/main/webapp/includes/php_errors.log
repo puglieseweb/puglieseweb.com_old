@@ -1,8 +1,0 @@
-[18-Aug-2011 07:02:09] PHP Warning:  session_start(): open(/var/lib/php/session/sess_rsrr6br2cgatcd0780aia1jo23, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
-[18-Aug-2011 07:02:12] PHP Warning:  session_start(): open(/var/lib/php/session/sess_rsrr6br2cgatcd0780aia1jo23, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
-[18-Aug-2011 07:02:15] PHP Warning:  session_start(): open(/var/lib/php/session/sess_rsrr6br2cgatcd0780aia1jo23, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
-[18-Aug-2011 07:02:21] PHP Warning:  session_start(): open(/var/lib/php/session/sess_rsrr6br2cgatcd0780aia1jo23, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
-[20-Aug-2011 12:27:50] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/article.inc.php on line 4
-[20-Aug-2011 12:28:12] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/article.inc.php on line 4
-[20-Aug-2011 12:28:13] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/article.inc.php on line 4
-[20-Aug-2011 12:28:14] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/article.inc.php on line 4

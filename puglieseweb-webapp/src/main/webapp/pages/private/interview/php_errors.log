@@ -1,5 +1,0 @@
-[09-Nov-2011 12:17:01] PHP Warning:  session_start(): open(/var/lib/php/session/sess_jp34p7s2iivnhs0aeq4ba7n4p5, O_RDWR) failed: Permission denied (13) in /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php on line 6
-[09-Nov-2011 12:17:01] PHP Stack trace:
-[09-Nov-2011 12:17:01] PHP   1. {main}() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/interview/soft_skill_questions.php:0
-[09-Nov-2011 12:17:01] PHP   2. include() /home/pweb/development/prjs/websites/puglieseweb.com/beta/pages/interview/soft_skill_questions.php:1
-[09-Nov-2011 12:17:01] PHP   3. session_start() /home/pweb/development/prjs/websites/puglieseweb.com/beta/includes/master-head.inc.php:6
