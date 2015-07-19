@@ -1,148 +1,382 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.puglieseweb.app.web</groupId>
-  <artifactId>puglieseweb</artifactId>
-  <name>puglieseweb (parent pom)</name>
-  <version>1.0.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.puglieseweb.app.web</groupId>
+    <artifactId>puglieseweb</artifactId>
+    <name>puglieseweb (parent pom)</name>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-  <properties>
-    <magnoliaVersion>5.3.8</magnoliaVersion>
-    <javaVersion>1.8</javaVersion>
-    <damVersion>2.0.7</damVersion>
-    <springVersion>4.1.5.RELEASE</springVersion>
-    <blossomVersion>3.0.6</blossomVersion>
-    <project.version>${version}</project.version>
-  </properties>
+    <properties>
+        <magnoliaVersion>5.3.8</magnoliaVersion>
+        <javaVersion>1.8</javaVersion>
+        <damVersion>2.0.7</damVersion>
+        <springVersion>4.1.5.RELEASE</springVersion>
+        <springWebFlowVersion>2.4.1.RELEASE</springWebFlowVersion>
+        <blossomVersion>3.0.6</blossomVersion>
+        <project.version>${version}</project.version>
+    </properties>
 
-  <scm>
-    <connection>scm:git:https://github.com/puglieseweb/webapp</connection>
-    <developerConnection>scm:git:https://github.com/puglieseweb/webapp</developerConnection>
-    <url>https://github.com/puglieseweb/webapp.git</url>
-    <tag>HEAD</tag>
-  </scm>
+    <scm>
+        <connection>scm:git:https://github.com/puglieseweb/webapp</connection>
+        <developerConnection>scm:git:https://github.com/puglieseweb/webapp</developerConnection>
+        <url>https://github.com/puglieseweb/webapp.git</url>
+        <tag>HEAD</tag>
+    </scm>
 
-  <dependencyManagement>
-    <dependencies>
-      <!-- Due to a bug in Maven 2, we have to import info.magnolia:magnolia-project here.
-           It would normally not be needed, since info.magnolia:magnolia-bundle-parent already imports it. (see below)
-           The dependency to info.magnolia:magnolia-project needs to be BEFORE the dependency
-           to info.magnolia:magnolia-bundle-parent, otherwise it doesn't work either.
-           Also note that this is assuming magnolia-project and magnolia-ui-project have the same version number as
-           magnolia-bundle-parent, which not always be true in the future.
-           If you are using Maven 3, you should not need the 2 dependencies below, and all should be well.
-       -->
-      <dependency>
-        <groupId>info.magnolia</groupId>
-        <artifactId>magnolia-project</artifactId>
-        <version>${magnoliaVersion}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
-        <groupId>info.magnolia.ui</groupId>
-        <artifactId>magnolia-ui-project</artifactId>
-        <version>${magnoliaVersion}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
+    <!--<parent>-->
+    <!--<groupId>org.springframework.boot</groupId>-->
+    <!--<artifactId>spring-boot-starter-parent</artifactId>-->
+    <!--<version>1.2.5.RELEASE</version>-->
+    <!--</parent>-->
 
-      <!-- Importing dependencyManagement of CE bundle. This means you don't have to specify versions of modules you depend on (unless you want a different version than that of the bundle). -->
-      <dependency>
-        <groupId>info.magnolia.bundle</groupId>
-        <artifactId>magnolia-bundle-parent</artifactId>
-        <version>${magnoliaVersion}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
+    <dependencyManagement>
+        <dependencies>
 
-      <!-- If you want to use the Enterprise Edition, use info.magnolia.eebundle:magnolia-enterprise-bundle-parent.
-      If you are using Maven 2, for the same reasons as above, you will have to keep the dependency to the CE bundle as well. If you are using Maven 3, just keep this one dependency below and remove the above 3.
-      <dependency>
-        <groupId>info.magnolia.eebundle</groupId>
-        <artifactId>magnolia-enterprise-bundle-parent</artifactId>
-        <version>${magnoliaVersion}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      -->
+            <!-- Puglieseweb dependencies -->
+            <dependency>
+                <groupId>com.puglieseweb.app.web</groupId>
+                <artifactId>bootstrap</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.puglieseweb.app.web</groupId>
+                <artifactId>rest-clients</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.puglieseweb.app.web</groupId>
+                <artifactId>magnolia-webapp</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.puglieseweb.app.web</groupId>
+                <artifactId>templates</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.puglieseweb.app.web</groupId>
+                <artifactId>services</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.puglieseweb.app.web</groupId>
+                <artifactId>webflow</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
-      <!-- TEST -->
-      <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>4.11</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>mysql</groupId>
-        <artifactId>mysql-connector-java</artifactId>
-        <version>5.1.35</version>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
+            <!-- Magnolia dependencies -->
+
+            <!-- Due to a bug in Maven 2, we have to import info.magnolia:magnolia-project here.
+                 It would normally not be needed, since info.magnolia:magnolia-bundle-parent already imports it. (see below)
+                 The dependency to info.magnolia:magnolia-project needs to be BEFORE the dependency
+                 to info.magnolia:magnolia-bundle-parent, otherwise it doesn't work either.
+                 Also note that this is assuming magnolia-project and magnolia-ui-project have the same version number as
+                 magnolia-bundle-parent, which not always be true in the future.
+                 If you are using Maven 3, you should not need the 2 dependencies below, and all should be well.
+             -->
+            <dependency>
+                <groupId>info.magnolia</groupId>
+                <artifactId>magnolia-project</artifactId>
+                <version>${magnoliaVersion}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>info.magnolia.ui</groupId>
+                <artifactId>magnolia-ui-project</artifactId>
+                <version>${magnoliaVersion}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- Importing dependencyManagement of CE bundle. This means you don't have to specify versions of modules you depend on (unless you want a different version than that of the bundle). -->
+            <dependency>
+                <groupId>info.magnolia.bundle</groupId>
+                <artifactId>magnolia-bundle-parent</artifactId>
+                <version>${magnoliaVersion}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- If you want to use the Enterprise Edition, use info.magnolia.eebundle:magnolia-enterprise-bundle-parent.
+            If you are using Maven 2, for the same reasons as above, you will have to keep the dependency to the CE bundle as well. If you are using Maven 3, just keep this one dependency below and remove the above 3.
+            <dependency>
+              <groupId>info.magnolia.eebundle</groupId>
+              <artifactId>magnolia-enterprise-bundle-parent</artifactId>
+              <version>${magnoliaVersion}</version>
+              <type>pom</type>
+              <scope>import</scope>
+            </dependency>
+            -->
+
+            <!-- Overlay Magnolia Empty Webapp. Alternatively, use the bundled-webapp or the enterprise-webapp. Dependencies versions are already imported by parent, so no need to replicate here. -->
+            <dependency>
+                <groupId>info.magnolia</groupId>
+                <artifactId>magnolia-empty-webapp</artifactId>
+                <version>${magnoliaVersion}</version>
+                <type>pom</type>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.apache.derby</groupId>
+                        <artifactId>derby</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>info.magnolia</groupId>
+                <artifactId>magnolia-core</artifactId>
+                <version>${magnoliaVersion}</version>
+            </dependency>
+            <dependency>
+                <groupId>info.magnolia</groupId>
+                <artifactId>magnolia-rendering</artifactId>
+                <version>${magnoliaVersion}</version>
+            </dependency>
+            <dependency>
+                <groupId>info.magnolia</groupId>
+                <artifactId>magnolia-templating</artifactId>
+                <version>${magnoliaVersion}</version>
+            </dependency>
+            <dependency>
+                <groupId>info.magnolia</groupId>
+                <artifactId>magnolia-templating-jsp</artifactId>
+                <version>${magnoliaVersion}</version>
+            </dependency>
+            <dependency>
+                <groupId>info.magnolia.dam</groupId>
+                <artifactId>magnolia-dam-api</artifactId>
+                <version>${damVersion}</version>
+            </dependency>
+            <dependency>
+                <groupId>info.magnolia.dam</groupId>
+                <artifactId>magnolia-dam-app</artifactId>
+                <version>${damVersion}</version>
+            </dependency>
+            <dependency>
+                <groupId>info.magnolia.dam</groupId>
+                <artifactId>magnolia-dam-core</artifactId>
+                <version>${damVersion}</version>
+            </dependency>
+            <dependency>
+                <groupId>info.magnolia.dam</groupId>
+                <artifactId>magnolia-dam-jcr</artifactId>
+                <version>${damVersion}</version>
+            </dependency>
+            <dependency>
+                <groupId>info.magnolia.dam</groupId>
+                <artifactId>magnolia-dam-templating</artifactId>
+                <version>${damVersion}</version>
+            </dependency>
+            <dependency>
+                <groupId>info.magnolia.blossom</groupId>
+                <artifactId>magnolia-module-blossom</artifactId>
+                <version>${blossomVersion}</version>
+            </dependency>
+
+            <!-- Spring Dependencies -->
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-webmvc</artifactId>
+                <version>${springVersion}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>commons-logging</groupId>
+                        <artifactId>commons-logging</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.webflow</groupId>
+                <artifactId>spring-webflow</artifactId>
+                <version>${springWebFlowVersion}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>commons-logging</groupId>
+                        <artifactId>commons-logging</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aop</artifactId>
+                <version>${springVersion}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>commons-logging</groupId>
+                        <artifactId>commons-logging</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-web</artifactId>
+                <version>4.1.5.RELEASE</version>
+            </dependency>
+
+            <!-- Others dependencies -->
+
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>5.1.35</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-log4j12</artifactId>
+                <version>1.6.6</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>2.3.3</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.16.2</version>
+                <!--<scope>provided</scope>-->
+            </dependency>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>3.0.1</version>
+                <scope>provided</scope>
+            </dependency>
+            <!-- For @Valid - JSR-303 Bean Validation API -->
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-validator</artifactId>
+                <version>4.3.1.Final</version>
+            </dependency>
+
+            <!-- TEST -->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.11</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>4.0.3.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-all</artifactId>
+                <version>1.10.19</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
 
 
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>2.3.2</version>
-        <configuration>
-          <source>${javaVersion}</source>
-          <target>${javaVersion}</target>
-        </configuration>
-      </plugin>
-    </plugins>
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.liquibase</groupId>
+                    <artifactId>liquibase-maven-plugin</artifactId>
+                    <version>3.0.5</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>2.3.2</version>
+                    <configuration>
+                        <source>${javaVersion}</source>
+                        <target>${javaVersion}</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
 
-    <!-- default resources configuration which will filter your module descriptors -->
-    <resources>
-      <resource>
-        <directory>src/main/resources</directory>
-        <includes>
-          <include>**/*</include>
-        </includes>
-      </resource>
-      <resource>
-        <filtering>true</filtering>
-        <directory>src/main/resources</directory>
-        <includes>
-          <include>META-INF/magnolia/*</include>
-        </includes>
-      </resource>
-    </resources>
-  </build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+            </plugin>
+        </plugins>
 
-  <repositories>
-    <repository>
-      <id>magnolia.public</id>
-      <url>https://nexus.magnolia-cms.com/content/groups/public</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-    <!-- IF YOU NEED MODULES FROM THE ENTERPRISE VERSION, UNCOMMENT THE FOLLOWING REPOSITORY -->
-    <!--
-    <repository>
-      <id>magnolia.enterprise.releases</id>
-      <url>https://nexus.magnolia-cms.com/content/repositories/magnolia.enterprise.releases</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-    -->
-    <repository>
-      <id>vaadin-addons</id>
-      <url>https://maven.vaadin.com/vaadin-addons</url>
-    </repository>
-  </repositories>
+        <!-- default resources configuration which will filter your module descriptors -->
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*</include>
+                </includes>
+            </resource>
+            <resource>
+                <filtering>true</filtering>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>META-INF/magnolia/*</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
 
-  <modules>
-    <module>puglieseweb-webapp</module>
-    <module>blossom-module</module>
-    <module>blossom-webflow</module>
-    <module>database</module>
-  </modules>
+    <repositories>
+        <repository>
+            <id>spring-releases</id>
+            <url>https://repo.spring.io/libs-release</url>
+        </repository>
+        <repository>
+            <id>magnolia.public</id>
+            <url>https://nexus.magnolia-cms.com/content/groups/public</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <!-- IF YOU NEED MODULES FROM THE ENTERPRISE VERSION, UNCOMMENT THE FOLLOWING REPOSITORY -->
+        <!--
+        <repository>
+          <id>magnolia.enterprise.releases</id>
+          <url>https://nexus.magnolia-cms.com/content/repositories/magnolia.enterprise.releases</url>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </repository>
+        -->
+        <repository>
+            <id>vaadin-addons</id>
+            <url>https://maven.vaadin.com/vaadin-addons</url>
+        </repository>
+        <repository>
+            <id>sonatype-snapshots</id>
+            <name>OSS Sonatype Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>spring-releases</id>
+            <url>https://repo.spring.io/libs-release</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>magnolia.nexus.public</id>
+            <url>https://nexus.magnolia-cms.com/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <modules>
+        <module>magnolia-webapp</module>
+        <module>bootstrap</module>
+        <module>templates</module>
+        <module>services</module>
+        <module>webflow</module>
+        <module>database</module>
+        <module>rest-clients</module>
+    </modules>
 </project>
