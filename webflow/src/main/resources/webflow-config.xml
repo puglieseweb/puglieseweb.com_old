@@ -19,9 +19,8 @@
 	<!-- The registry of executable flow definitions -->
 	<webflow:flow-registry id="flowRegistry"
                            flow-builder-services="flowBuilderServices"
-                           base-path="classpath:info/magnolia/blossom/sample/webflow">
+                           base-path="classpath:flows/booking">
 		<webflow:flow-location-pattern value="/**/*-flow.xml" />
-      <webflow:flow-location path="classpath:info/magnolia/blossom/sample/webflow/booking-flow.xml"/>
 	</webflow:flow-registry>
 
 	<!-- Plugs in a custom creator for Web Flow views -->
@@ -35,26 +34,7 @@
       <list>
         <bean class="info.magnolia.module.blossom.view.UuidRedirectViewResolver" />
         <bean class="info.magnolia.module.blossom.view.TemplateViewResolver">
-          <property name="order" value="2"/>
-          <property name="prefix" value="/templates/blossomPugliesewebModule/"/>
-          <property name="viewNames" value="*.jsp"/>
-          <property name="viewRenderer">
-            <bean class="info.magnolia.module.blossom.view.JspTemplateViewRenderer">
-              <property name="contextAttributes">
-                <map>
-                  <entry key="damfn">
-                    <bean class="info.magnolia.rendering.renderer.ContextAttributeConfiguration">
-                      <property name="name" value="damfn"/>
-                      <property name="componentClass" value="info.magnolia.dam.templating.functions.DamTemplatingFunctions"/>
-                    </bean>
-                  </entry>
-                </map>
-              </property>
-            </bean>
-          </property>
-        </bean>
-        <bean class="info.magnolia.module.blossom.view.TemplateViewResolver">
-          <property name="prefix" value="/info/magnolia/blossom/sample/webflow/"/>
+          <property name="prefix" value="/flows/booking/"/>
           <property name="suffix" value=".ftl"/>
           <property name="viewRenderer">
             <bean class="info.magnolia.module.blossom.view.FreemarkerTemplateViewRenderer">

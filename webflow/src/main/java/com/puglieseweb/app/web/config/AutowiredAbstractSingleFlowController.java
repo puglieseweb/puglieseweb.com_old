@@ -31,7 +31,7 @@
  * intact.
  *
  */
-package com.puglieseweb.app.web.setup;
+package com.puglieseweb.app.web.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.webflow.executor.FlowExecutor;

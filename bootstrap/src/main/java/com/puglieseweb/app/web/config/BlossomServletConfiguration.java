@@ -69,7 +69,8 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
 @Configuration
 @ComponentScan(
         basePackages = {
-                "com.puglieseweb.app.web.templates"
+                "com.puglieseweb.app.web.templates",
+                "com.puglieseweb.app.web.config"
         },
         includeFilters = {
                 @ComponentScan.Filter(Template.class),

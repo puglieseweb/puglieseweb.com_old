@@ -5,7 +5,7 @@
   <displayName>Blossom Puglieseweb Module</displayName>
   <description>Puglieseweb's templates</description>
   <class>com.puglieseweb.app.web.BlossomPugliesewebModule</class>
-  <versionHandler>com.puglieseweb.app.web.setup.BlossomSampleModuleVersionHandler</versionHandler>
+  <versionHandler>com.puglieseweb.app.web.config.TemplatesModuleVersionHandler</versionHandler>
   <version>${project.version}</version>
 
   <dependencies>

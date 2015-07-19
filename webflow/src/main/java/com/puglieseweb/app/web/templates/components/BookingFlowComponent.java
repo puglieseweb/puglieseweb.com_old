@@ -36,7 +36,7 @@ package com.puglieseweb.app.web.templates.components;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.puglieseweb.app.web.setup.AbstractSingleFlowController;
+import com.puglieseweb.app.web.config.AbstractSingleFlowController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

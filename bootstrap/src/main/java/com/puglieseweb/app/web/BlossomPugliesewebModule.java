@@ -33,7 +33,7 @@
  */
 package com.puglieseweb.app.web;
 
-import com.puglieseweb.app.web.config.PugliesewebApplicationConfiguration;
+import com.puglieseweb.app.web.config.TemplatesConfiguration;
 import com.puglieseweb.app.web.config.BlossomServletConfiguration;
 import info.magnolia.module.ModuleLifecycle;
 import info.magnolia.module.ModuleLifecycleContext;
@@ -49,7 +49,7 @@ public class BlossomPugliesewebModule extends BlossomModuleSupport implements Mo
 
     public void start(ModuleLifecycleContext moduleLifecycleContext) {
         if (moduleLifecycleContext.getPhase() == ModuleLifecycleContext.PHASE_SYSTEM_STARTUP) {
-            super.initRootWebApplicationContext(PugliesewebApplicationConfiguration.class);
+            super.initRootWebApplicationContext(TemplatesConfiguration.class);
             super.initBlossomDispatcherServlet("blossom", BlossomServletConfiguration.class);
         }
     }

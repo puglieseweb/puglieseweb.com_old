@@ -31,7 +31,7 @@
  * intact.
  *
  */
-package com.puglieseweb.app.web.setup;
+package com.puglieseweb.app.web.config;
 
 import info.magnolia.context.MgnlContext;
 import info.magnolia.link.LinkException;
