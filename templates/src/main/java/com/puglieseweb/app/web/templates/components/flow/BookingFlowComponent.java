@@ -31,12 +31,13 @@
  * intact.
  *
  */
-package com.puglieseweb.app.web.templates.components;
+package com.puglieseweb.app.web.templates.components.flow;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.puglieseweb.app.web.config.AbstractSingleFlowController;
+import com.puglieseweb.app.web.templates.components.Promo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -49,7 +50,8 @@ import info.magnolia.module.blossom.annotation.Template;
  * Controller that provides the booking flow.
  */
 @Controller
-@Template(title = "Booking Flow", id = "blossomPugliesewebModule:pages/bookingFlow")
+@Template(title = "Booking Flow", id = "blossomPugliesewebModule:components/bookingFlow")
+@Promo
 public class BookingFlowComponent extends AbstractSingleFlowController {
 
     public BookingFlowComponent() {

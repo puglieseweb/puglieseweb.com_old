@@ -35,6 +35,7 @@ package com.puglieseweb.app.web.templates.pages;
 
 import com.puglieseweb.app.web.rest.client.Quote;
 import com.puglieseweb.app.web.templates.components.*;
+import com.puglieseweb.app.web.templates.components.flow.BookingFlowComponent;
 import info.magnolia.cms.core.MgnlNodeType;
 import info.magnolia.jcr.util.NodeUtil;
 import info.magnolia.jcr.util.PropertyUtil;
