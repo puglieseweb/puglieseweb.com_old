@@ -31,7 +31,7 @@
  * intact.
  *
  */
-package com.puglieseweb.app.web;
+package com.puglieseweb.app.web.config;
 
 import com.puglieseweb.app.web.config.TemplatesConfiguration;
 import com.puglieseweb.app.web.config.BlossomServletConfiguration;
@@ -45,7 +45,7 @@ import info.magnolia.module.blossom.module.BlossomModuleSupport;
  * outside world. A request will never reach this servlet directly. It is only accessed by Magnolia to render the
  * templates, areas and components and display the dialogs managed by the servlet.
  */
-public class BlossomPugliesewebModule extends BlossomModuleSupport implements ModuleLifecycle {
+public class BlossomModule extends BlossomModuleSupport implements ModuleLifecycle {
 
     public void start(ModuleLifecycleContext moduleLifecycleContext) {
         if (moduleLifecycleContext.getPhase() == ModuleLifecycleContext.PHASE_SYSTEM_STARTUP) {

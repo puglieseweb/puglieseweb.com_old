@@ -31,7 +31,7 @@
  * intact.
  *
  */
-package com.puglieseweb.app.web;
+package com.puglieseweb.app.web.config;
 
 import info.magnolia.module.blossom.annotation.VirtualURIMapper;
 
