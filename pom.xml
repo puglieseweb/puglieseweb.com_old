@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <magnoliaVersion>5.3.8</magnoliaVersion>
+        <magnoliaVersion>6.2.12</magnoliaVersion>
         <javaVersion>1.8</javaVersion>
         <damVersion>2.0.7</damVersion>
         <springVersion>4.1.5.RELEASE</springVersion>
