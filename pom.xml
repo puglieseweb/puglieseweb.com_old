@@ -13,7 +13,7 @@
         <javaVersion>1.8</javaVersion>
         <damVersion>2.0.7</damVersion>
         <springVersion>4.1.5.RELEASE</springVersion>
-        <springWebFlowVersion>2.4.1.RELEASE</springWebFlowVersion>
+        <springWebFlowVersion>2.4.6.RELEASE</springWebFlowVersion>
         <blossomVersion>3.0.6</blossomVersion>
         <project.version>${version}</project.version>
     </properties>
