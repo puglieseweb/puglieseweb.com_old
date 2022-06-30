@@ -10,7 +10,7 @@
     <artifactId>webflow</artifactId>
 
     <properties>
-        <springWebFlowVersion>2.4.1.RELEASE</springWebFlowVersion>
+        <springWebFlowVersion>2.4.6.RELEASE</springWebFlowVersion>
     </properties>
     <dependencies>
         <dependency>
